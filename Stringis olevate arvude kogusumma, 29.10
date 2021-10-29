@@ -1,0 +1,7 @@
+let string = "2 7 6 12 44 32 4 8 12 17"
+let array= string.split(' ')
+for(i=0; i<string.length; i++){
+let sum= 0
+sum +=string[i]
+}
+console.log(sum)
