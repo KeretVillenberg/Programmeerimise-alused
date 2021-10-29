@@ -1,0 +1,13 @@
+let sekundid = prompt("sisesta sekundid")
+let tunnid = Math.floor(sekundid/60/60)
+console.log(tunnid)
+
+function sekundidTundideks (sekundid) {
+   return Math.floor(sekundid/60/60)
+}
+
+sekundidTundideks(prompt())
+
+function sisestaIse() {
+  return sekundidTundideks(prompt()) 
+}
