@@ -1,0 +1,10 @@
+function taxOwed (income){
+if(income<10000){
+return 0}
+else if(income>=10000 && income<30000){
+return Math.floor((income-10000)*10/100)}
+else if(income>=30000 && income<100000){
+return Math.floor(2000+(income-30000)*25/100)}
+else if(income>=100000){
+return Math.floor(2000+17500+(income-100000)*40/100)}
+}
