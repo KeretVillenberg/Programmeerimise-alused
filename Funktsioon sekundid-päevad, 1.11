@@ -1,0 +1,8 @@
+function ajaLugeja (sekundid) {
+x1=sekundid
+x2=Math.floor(sekundid/60)
+x3=Math.floor(sekundid/60/60)
+x4=Math.floor(sekundid/60/60/24)
+return x5='Sekundeid: '+ x1+' ;minuteid: '+ x2 +' ;tunde: '+ x3 +' ;päevi: '+ x4
+console.log(x5)
+}
